@@ -1,10 +1,11 @@
-//
-//  main.swift
-//  Calculator
-//
-//  Created by Joshua Crum on 12/9/17.
-//  Copyright © 2017 Joshua Crum. All rights reserved.
-//
+/***********************************************************************
+ * This is a simple calculator that keeps a running total. This
+ * Calculator supports addition, subtraction, multiplication, division,
+ * and exponents.
+ *
+ * @author Joshua Crum
+ * @version 12/9/17
+ ***********************************************************************/
 
 import Foundation
 import Darwin
@@ -19,6 +20,7 @@ print("Weclome to the simple calculator!")
 print("First, enter a calculation in this form: <var> <operation> <var>")
 print("Then type <operation> <var> to keep a running calculation.")
 print("Supported commands: +, -, *, /, ^ (exponent)\n")
+
 while (i == 0) {
     let input: String? = readLine()
     let stringArray = input!.components(separatedBy: " ")
